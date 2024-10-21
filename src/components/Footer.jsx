@@ -13,7 +13,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex-1 w-full">
-            <form className="flex items-center justify-center">
+            {/* <form className="flex items-center justify-center">
               <input
                 type="email"
                 placeholder="Your email"
@@ -25,7 +25,7 @@ const Footer = () => {
               >
                 Subscribe
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
 
