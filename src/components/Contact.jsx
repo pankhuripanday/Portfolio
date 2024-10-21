@@ -29,20 +29,43 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='flex-1 w-full'>
-                    <form className='space-y-4'>
+                    <form
+                    action="https://getform.io/f/bdryovnb"
+                    method="POST" 
+                    className='space-y-4'>
                         <div>
                             <label htmlFor="name" className='block mb-2'>Your Name</label>
-                            <input type="text" className='w-full p-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:border-green-400' placeholder='Enter Your Name' />
+                            <input 
+                            type="text"
+                            name="name"
+                            id="name"
+                            autoComplete="name"
+                            required
+                            placeholder="Name"
+                            className='w-full p-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:border-green-400'/>
                         </div>
 
                         <div>
                             <label htmlFor="email" className='block mb-2'>Email</label>
-                            <input type="text" className='w-full p-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:border-green-400' placeholder='Enter Your Email' />
+                            <input 
+                            type="emial"
+                            name="email"
+                            id="email"
+                            autoComplete="email"
+                            required
+                            placeholder="Email"
+                             className='w-full p-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:border-green-400'/>
                         </div>
 
                         <div>
                             <label htmlFor="message" className='block mb-2'>Message</label>
-                            <textarea type="text" className='w-full p-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:border-green-400' rows='5' placeholder='Enter Your Message' />
+                            <textarea 
+                            type="text" 
+                            name="message" 
+                            id="message"
+                            required
+                            placeholder="Hi!"
+                            className='w-full p-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:border-green-400' rows='5'/>
                         </div>
                         <button className="hidden px-8 py-2 text-white transition-transform duration-300 transform rounded-full bg-gradient-to-r from-green-400 to-blue-500 md:inline hover:scale-105">Send</button>
 

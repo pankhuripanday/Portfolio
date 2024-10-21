@@ -6,9 +6,9 @@ const Footer = () => {
       <div className="container px-8 mx-auto md:px-16 lg:px-24">
         <div className="flex flex-col items-center mb-4 md:flex-row md:space-x-12">
           <div className="flex-1 mb-4 md:mb-0">
-            <h3 className="mb-2 text-2xl font-bold">Pankhuri</h3>
+            <h3 className="mb-2 text-2xl font-bold" ><a href="#">Pankhuri</a></h3>
             <p className="text-gray-400">
-              Front-End Developer specialized in web and
+              Front-End Developer specialized in web development and
               software development.
             </p>
           </div>
@@ -36,13 +36,13 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Pankhuri. All rights reserved.
           </p>
           <div className="flex my-4 space-x-4 md:my-0">
-            <a href="#" className="text-gray-400 hover:text-white">
+            {/* <a href="#" className="text-gray-400 hover:text-white">
               <FaInstagram />
-            </a>            
-            <a href="#" className="text-gray-400 hover:text-white">
+            </a>             */}
+            <a href="https://www.linkedin.com/in/pankhuripanday/" className="text-gray-400 hover:text-white">
               <FaLinkedin />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://github.com/pankhuripanday" className="text-gray-400 hover:text-white">
               <FaGithub />
             </a>
           </div>

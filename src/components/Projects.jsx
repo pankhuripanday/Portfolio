@@ -1,28 +1,58 @@
-import employeeMSImage from "../assets/employee-ms.png";
-import bookMSImage from "../assets/admin-dashboard.png";
-
+import luxora from "../assets/luxora.png";
+import bot from "../assets/bot.png";
+import amazon from "../assets/amazon.png";
+import bgchanger from "../assets/bgchanger.png";
+import ecommerce from "../assets/ecommerce.png";
+import food from "../assets/food.png";  
 const projects = [
   {
     id: 1,
-    name: "Employee MS",
-    technologies: "MERN Stack",
-    image: employeeMSImage,
-    github: "https://github.com/YouafKhan1",
+    name: "Luxora",
+    technologies: "React Js, Tailwind Css",
+    image: luxora,
+    github: "https://github.com/pankhuripanday/Luxora",
+    demo: "https://luxoraa.vercel.app/"
   },
   {
     id: 2,
-    name: "Blog App",
-    technologies: "MERN Stack",
-    image: bookMSImage,
-    github: "https://github.com/YouafKhan1",
+    name: "Chat Bot",
+    technologies: "React Js, Tailwind Css",
+    image: bot,
+    github: "https://github.com/pankhuripanday/chatbot_akgec",
+    demo: "https://chatbotakgec.vercel.app/"
   },
   {
     id: 3,
-    name: "Book MS",
-    technologies: "MERN Stack",
-    image: employeeMSImage,
-    github: "https://github.com/YouafKhan1",
+    name: "Food Rescue Conect",
+    technologies: "HTML, CSS, JavaScript",
+    image: food,
+    github: "https://github.com/pankhuripanday/FoodRescueConnect",
+    demo:"https://pankhuripanday.github.io/FoodRescueConnect/"
   },
+  {
+    id: 4,
+    name: "BgChanger",
+    technologies: "ReactJs",
+    image: bgchanger,
+    github: "https://github.com/pankhuripanday/React_BgChanger",
+    demo:"https://react-bg-changer-mu.vercel.app/"
+  },
+  {
+    id: 5,
+    name: "TrendTribe",
+    technologies: "HTML, CSS, JavaScript",
+    image: ecommerce,
+    github: "https://github.com/pankhuripanday/e-commerce_clone",
+    demo:"https://pankhuripanday.github.io/e-commerce_clone/"
+  },
+  {
+    id: 6,
+    name: "Amazon Clone",
+    technologies: "HTML, CSS",
+    image: amazon,
+    github: "https://github.com/pankhuripanday/Amazon_clone",
+    demo:"https://pankhuripanday.github.io/Amazon_clone/"
+  }
 ];
 
 const Projects = () => {
@@ -38,6 +68,8 @@ const Projects = () => {
               <p className="mb-4 text-gray-400">{project.technologies}</p>
               <a href={project.github} className="inline-block px-4 py-2 text-white rounded-full bg-gradient-to-r from-green-400 to-blue-500" target="_blank" 
               rel="noopener noreferrer">GitHub</a>
+              <a href={project.demo} className="inline-block px-4 py-2 text-white rounded-full bg-gradient-to-r from-green-400 to-blue-500" target="_blank" 
+              rel="noopener noreferrer"> Demo</a>
             </div>
           ))}
         </div>

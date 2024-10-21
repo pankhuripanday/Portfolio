@@ -15,7 +15,7 @@ const Hero = () => {
         <div className='mt-8 space-x-4'>
             <button className="hidden px-4 py-2 text-white transition-transform duration-300 transform rounded-full bg-gradient-to-r from-pink-400 to-blue-500 md:inline hover:scale-105"> <a href="mailto:pandaypankhuri@gmail.com">Connect With Me</a></button>
             <button className="hidden px-4 py-2 text-white transition-transform duration-300 transform rounded-full bg-gradient-to-r from-pink-400 to-blue-500 md:inline hover:scale-105"
-            onClick={() => window.open("https://drive.google.com/file/d/1BFNzHY5X44EO1dheCj4tgbcro1i_Z8G9/view?usp=sharing")}
+            onClick={() => window.open("https://drive.google.com/file/d/1Aa2oGo_NGhagtDR5bPP5uZDZp7mA3jax/view?usp=sharing")}
             >Resume</button>
         </div>
     </div>
