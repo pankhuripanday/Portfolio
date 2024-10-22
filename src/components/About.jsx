@@ -15,28 +15,46 @@ const About = () => {
                     <div className='flex items-center'>
                         <label htmlFor="htmlandcss" className='w-2/12'>HTML & CSS</label>
                         <div className='grow bg-gray-800 rounded-full h-2.5'>
+                            <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-11/12'></div>
+                        </div>
+                    </div>
+
+                    <div className='flex items-center'>
+                        <label htmlFor="htmlandcss" className='w-2/12'>JavaScript</label>
+                        <div className='grow bg-gray-800 rounded-full h-2.5'>
                             <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-10/12'></div>
+                        </div>
+                    </div>
+
+                    <div className='flex items-center'>
+                        <label htmlFor="htmlandcss" className='w-2/12'>Tailwind Css</label>
+                        <div className='grow bg-gray-800 rounded-full h-2.5'>
+                            <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-9/12'></div>
                         </div>
                     </div>
 
                     <div className='flex items-center'>
                         <label htmlFor="htmlandcss" className='w-2/12'>React JS</label>
                         <div className='grow bg-gray-800 rounded-full h-2.5'>
-                            <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-9/12'></div>
+                            <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-10/12'></div>
                         </div>
                     </div>
                 </div>
                 <div className='flex justify-between mt-12 text-center'>
                     <div>
-                        <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
+                        {/* <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
                             3+
                         </h3>
-                        <p>Years Experience</p>
+                        <p>Years Experience</p> */}
+                        <img src="/logo.png"
+                        width={100}
+                        height={100}
+                        alt="Pankhuri" />
                     </div>
 
                     <div>
                         <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
-                            12+
+                            6+
                         </h3>
                         <p>Projects Completed</p>
                     </div>

@@ -66,7 +66,7 @@ const Projects = () => {
               <img src={project.image} alt={project.name} className="object-cover w-full h-48 mb-4 rounded-lg" />
               <h3 className="mb-2 text-2xl font-bold">{project.name}</h3>
               <p className="mb-4 text-gray-400">{project.technologies}</p>
-              <a href={project.github} className="inline-block px-4 py-2 text-white rounded-full bg-gradient-to-r from-green-400 to-blue-500" target="_blank" 
+              <a href={project.github} className="inline-block px-4 py-2 mr-2 text-white rounded-full bg-gradient-to-r from-green-400 to-blue-500" target="_blank" 
               rel="noopener noreferrer">GitHub</a>
               <a href={project.demo} className="inline-block px-4 py-2 text-white rounded-full bg-gradient-to-r from-green-400 to-blue-500" target="_blank" 
               rel="noopener noreferrer"> Demo</a>

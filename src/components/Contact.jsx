@@ -9,7 +9,7 @@ const Contact = () => {
             <div className='flex flex-col items-center md:flex-row md:space-x-12'>
                 
                 <div className='flex-1'>
-                    <h3 className='mb-4 text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>Let's Talk</h3>
+                    <h3 className='mb-4 text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>Let's Talk</h3>
                     <p>I'm open to discussing web dvelopment projects or partnership opportunities. </p>
                     <div className='mt-8 mb-4'>
                         <FaEnvelope className='inline-block mr-2 text-green-400' ></FaEnvelope>
@@ -20,13 +20,13 @@ const Contact = () => {
 
                     <div className='mb-4'>
                         <FaPhone className='inline-block mr-2 text-green-400' ></FaPhone>
-                        <span>+91-8881-888-099</span>
+                        <span>+91-8881888099</span>
                     </div>
 
-                    <div className='mb-4'>
+                    {/* <div className='mb-4'>
                         <FaMapMarkedAlt className='inline-block mr-2 text-green-400' ></FaMapMarkedAlt>
-                        <span>Street, City, Country</span>
-                    </div>
+                        <span>Noida, India</span>
+                    </div> */}
                 </div>
                 <div className='flex-1 w-full'>
                     <form
